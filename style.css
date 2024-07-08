@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Poppins", Arial, sans-serif; 
+    color: white;
+    /* font-family: "Great Vibes", cursive; */
+
+    
+}
+.maincontainer{
+    height: 745px;
+    overflow: hidden;
+}
+.image{
+    background-image: url("coffee-beans-with-props-making-coffee.jpg"); 
+   width:100%;
+    height: 975px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: contrast(0.9); */
+  
+}
+ul {
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 160px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    /* font-weight: 100; */
+    padding: 10px 30px 10px 10px;
+    font-weight: 400;
+    font-size: 10px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1 !important;
+    
+}
+
+li a:hover{
+   color: #c48d41;
+    
+}
+
+.container{
+    display: flex;
+    height: 200px;
+    /* position: relative; */
+}
+
+.logo{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.herotext{
+    /* height: 500px; */
+    margin-top: 5%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+/* @import url("https://fonts.googleapis.com/specimen/Great+Vibes?query=great+"); */
+p{
+   
+    text-align: center;
+    font-size: 40px;
+    /* color:red; */
+    /* #ffd69c */
+    /* font-family: "Great Vibes",cursive; */
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 56px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+nav{
+    position: relative;
+}
+
+button{
+    border: 1px solid white;
+    padding: 10px 30px 10px 30px;
+    background:  transparent;
+    color: white;
+    font-size: 15px;
+
+}
+
+.blackcard{
+    
+    
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    
+    justify-content: center;
+}
+
+.columns{
+    width: 400px;
+
+}
+
+.columns li{
+    list-style: none;
+}
+
+.storycontainer{
+    display: flex;
+   
+    /* border: 1px solid red; */
+}
+
+.storycolumn{
+    width: 50%;
+    background-image: url("close-up-hands-barista-make-latte-coffee-art-paint.jpg");
+    background-size: contain;
+    filter: blur(50%);
+    /* background: black; */
+}
+
+.order_cart{
+    height: 500px;
+    width: auto;
+    background-color: #d0a66c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.order_cart_span{
+    height: 200px;
+    width: 400px;
+    padding-right: 30px;
+}
+
+.order_cart_text{
+    font-size: 15px; color:#2a2929;
+   line-height: 25px;
+   /* font-family: "Poppins", Arial, sans-serif; */
+   
+}
+
+
+/* <!-- -----------our menu----------------------------- --> */
+
+.menu{
+    background-image: url("bg_4.jpg.webp");
+    height: 650px;
+}
+.menu_container{
+    display: flex;
+}
+.flex_menu_two{
+    display: flex;
+
+}
+
+.content_menu{
+    width: 700px;
+    height: 500px;
+}
+
+.menu_photo{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes{
+    height: 200px;
+    width: 200px;
+    padding: 15px;  
+}
+
+.recipes img{
+    height: 200px;
+}
+
+
+.justify-content_end{
+    display: flex;
+    justify-content: end;
+}
+
+
+.footer_row_box li{
+    list-style: none;
+    line-height: 40px;
+}
+
+.footer_row_box {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+marquee{
+    width: 1000px;
+    /* background-image: url("coffee-concept-with-ground-instant-coffee-coffee-beans-sugar-dark-vintage-background-top-view.jpg");
+    background-size: cover; */
+}
+
+.seller_container{
+    background-color: black;
+}
+
+.text_flow P{
+    font-size: 20PX;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.text_flow button{
+    text-decoration: none;
+   display: block;
+   margin: auto;
+}
+
+.cooking_team_cards{
+    height: 500px;
+    background-color: #2a2929;
+    width: 100%;
+}
+
+
+
+.cooking_team_cards_container{
+    display: flex;
+    flex-direction: row;
+    /* overflow: scroll; */
+    /* padding: 10px 10px 10px 70px; */
+    ALIGN-ITEMS: center;
+    JUSTIFY-CONTENT: CENTER;
+}
+
+.multiple_cards{
+    height: auto;
+    width: 400px;
+    padding: 0px 0px 10px 10px;
+    /* border: 1px solid; */
+   
+}
+.circle{
+    display: flex;
+}
+.circle img{
+    border-radius: 50%; height: 100px; width:100px;
+    margin: 10px 10px 10px 30px;
+}
+
+
+.text_GHFYFGFUYGFY{
+    height: 100px;
+    DISPLAY: flex;
+    JUSTIFY-CONTENT: CENTER;
+    ALIGN-ITEMS: center;
+}
+
+.personname{
+    display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 20px;
+flex-direction: row;
+padding-left: 26px;
+}
+
+
+.personname p{
+    font-size: 10px;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+}
+
+.footerboxes{
+    display: flex;
+    
+
+}
+
+.footerwithimg{
+    height: 300px;
+    overflow: hidden;
+}
+.footercontainer{
+    height: 1013px;
+    width: auto;
+    background-image: url("coffee-beans-with-props-making-coffee.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    column-gap: 60px;
+}
+.footerboxes{
+    width: 400px;
+    height: 200px;
+    
+}
+
+.footerboxes li a{
+    text-decoration: none;
+    color: white;
+    /* font-weight: 100; */
+    padding: 10px 30px 10px 10px;
+    font-weight: 400;
+    font-size: 10px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1 !important;
+    list-style: none;
+    line-height: 35px;
+}
+
+.footerboxes li :hover{
+    color: #c48d41;
+}
+

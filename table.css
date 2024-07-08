@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.tabletext h2 {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: system-ui;
+    font-weight: 400;
+    /* margin-left: 30px; */
+    padding: 15px 10px 10px 40px;
+}
+.fametext{
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px 40px 10px;
+}
+.fametext ul li{
+    list-style: none;
+    color: aliceblue;
+    
+    font-family: "Sofia", sans-serif;
+    text-transform: capitalize;
+}
+
+
+
+form{
+    width: 700px;
+}
+
+.tabletext{
+    width: 700px;
+}
+
+input[type=text]
+ {
+    padding: 10px 125px 10px 10px;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+input[type=text]::placeholder{
+    color:white;
+}
+
+input[type=date]
+ {
+    padding: 10px 176px 10px 10px;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+
+input[type=date]::placeholder{
+    color:white;
+}
+
+input[type=time]
+ {
+    padding: 10px 220px 10px 10px;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+input[type=time]::placeholder{
+    color:white;
+}
+
+.table {
+    height: 700px;
+    background: #c48d41;
+}
+
+
+input[type=tel]
+ {
+    padding: 10px 123px 10px 10px;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+input[type=tel]::placeholder{
+    color:white;
+}
+
+
+#booking_button{
+    MARGIN: 10PX 10PX 10PX 20PX;
+    PADDING: 15PX 90PX 15PX 90PX;
+    BACKGROUND: TRANSPARENT;
+    COLOR: aliceblue;
+    BORDER: 1PX SOLID;
+}
+
+
+.table_container{
+    display: flex;
+}
