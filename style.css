@@ -324,7 +324,7 @@ padding-left: 26px;
     height: 1013px;
     width: auto;
     background-image: url("coffee-beans-with-props-making-coffee.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
